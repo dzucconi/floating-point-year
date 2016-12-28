@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Arial Monospaced MT';
+  src: url('fonts/subset-ArialMonospacedMT.eot');
+  src: url('fonts/subset-ArialMonospacedMT.eot?#iefix') format('embedded-opentype'), url('fonts/subset-ArialMonospacedMT.woff') format('woff'), url('fonts/subset-ArialMonospacedMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Arial Monospaced MT', monospace;
+}
+
+.app {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .app {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .app {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    font-size: 24px;
+  }
+}
