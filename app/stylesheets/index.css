@@ -38,6 +38,13 @@ body {
   line-height: 1;
 }
 
+
+@media (min-width: 1920px) {
+  .app {
+    font-size: 100px;
+  }
+}
+
 @media (max-width: 1024px) {
   .app {
     font-size: 60px;
